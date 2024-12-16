@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    position: absolute;
+    /* border: 2px solid black; */
+    /* background-color: ; */
+    box-shadow: 2px 1px 15px 1px;
+    width: 100%;
+    height: 10%;
+    top: 0px; /* Keep some space from the top */
+    left: 0px; /* Align to the left with some padding */
+    text-align: left;
+}
+h3{
+    margin-top: 24px;
+    margin-left: 5px;
+}
+.profile-card {
+    background-color: white;
+
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 370px;
+    text-align: center;
+    padding: 20px;
+}
+p{
+    font-size: 1.4rem;
+}
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.role {
+    color: #666;
+    font-size: 14px;
+}
+
+.profile-actions {
+    margin: 20px 0;
+}
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100px;
+}
+
+.btn{
+    /* border: 2px solid black; */
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+    /* border-radius: 5px; */
+    /* background-color: #000000; */
+}
+
+/* 
+
+.inner-btn {
+    background-color: #000000;
+    color: white;
+    margin-right: 10px;
+    } */
+    
+    .logout-btn {
+    background-color: #0e8549;
+    font-size: 1.2rem;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+}
+.delete-btn{
+background-color: #f20000;
+/* color: #000000; */
+font-size: 1.2rem;
+/* border: 2px solid black; */
+border-radius: 8px;
+
+}
+
+.sidebar-menu ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar-menu li {
+    margin: 15px 0;
+}
+
+.sidebar-menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+
+}

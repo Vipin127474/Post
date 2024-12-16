@@ -1,0 +1,22 @@
+[
+    {
+        
+            "post_name":"rick",
+            "post_desc":"this blog is related to mediical field where doctors test new medicine to cure cancer.",
+            "post_image":"mdkdkdgdd"
+            
+        
+    },
+    {
+        
+            "post_name":"WEB DEV",
+            "post_desc":"THIS BLOG IS ON WEB DEVELOPMENT IN WHICH WE LEARN ABOUT FRONT-END, BACK-END & DATABASE.",
+            "post_image":"mdkdkdgdd"
+    },
+    {
+        
+            "post_name":"VERCEL",
+            "post_desc":"this blog is on hosting the website. to hosting the website vercel is famous platform of nextjs where we can host our website",
+            "post_image":"mdkdkdgdd"
+    }
+]
